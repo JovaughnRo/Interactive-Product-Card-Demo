@@ -13,6 +13,7 @@ jQuery(document).ready(function ($) {
 	// local host -> $urlIdentify = $url.split('/')[4].split('.html')[0];
 	// remote host -> $urlIdentify = $url.split('/')[3];
 	$urlIdentify = $url.split('/')[3]; //<- reads the url to access the page category
+	console.log("urlIdentify ->",$urlIdentify);
 	let $specsData = null;
 	switch ($urlIdentify) {
 		
@@ -536,5 +537,6 @@ jQuery(document).ready(function ($) {
 		}
 	}
 });
+
 
 
