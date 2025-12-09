@@ -332,7 +332,7 @@ jQuery(document).ready(function ($) {
 		// please note: organize data in order  largest of gallon size to the smallest. the 'size' key will represent this value.
         
 		if ($dID != "home" && $dID != "mobile") {
-            console.log("selectModel =>", $selectModel);
+           
 			for ($i = 0; $i < $masterOModels.length; $i++) {
 				if ($selectModel == $masterOModels[$i].name) {
 					$oModels = new modelSwitch(
@@ -406,5 +406,6 @@ jQuery(document).ready(function ($) {
 		// for DF10W and hides the others until they are selected.
 	}	
 });
+
 
 
