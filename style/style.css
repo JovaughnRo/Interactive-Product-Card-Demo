@@ -1,0 +1,228 @@
+/*
+Theme Name: Interactive Product Card Demo
+Description: This css sample is outfit for this demo to see the full version visit the here: https://marathonequipmentinc.com/wp-content/themes/oceanwp-child/style.css?ver=6.6.17.
+Author: Jovaughn Rowe
+Author URI: https://www.jovaughnroweportfolio.com/
+Update date: December 7, 2025
+*/
+
+*,
+::after,
+::before {
+	box-sizing: border-box;
+}
+
+a {
+	text-decoration: none !important;
+}
+
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin-bottom: 0px;
+}
+
+
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin-bottom: 0.5rem;
+	font-family: 'Roboto', sans-serif;
+	/* font-weight: 500; */
+	line-height: 1.2;
+	margin-top: 0;
+}
+
+.hp-header-h1 {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 500;
+	line-height: 1.2;
+	font-size: 40px;
+	margin-bottom: 0.5rem;
+}
+
+/* ---------------------------------------------------------------- */
+/* ---------------------------------------------------------------- */
+/*        Fixing z-index of ai bubble                               */
+/* ---------------------------------------------------------------- */
+/* ---------------------------------------------------------------- */
+/* #productCardModal{
+	z-index: 9999999!important;
+}
+ */
+
+/* ---------------------------------------------------------------- */
+/* ---------------------------------------------------------------- */
+/* ---------------------------------------------------------------- */
+/* -----------style-v2-addition------------------------------------ */
+
+/* tab focus css */
+*:focus:not(.focus-visible) {
+	outline-style: solid!important;
+	outline-width: medium!important;
+	outline-color: #017E12!important;
+	outline-offset: 3px!important;
+}
+.mei-time {
+	color: #ffffff!important;
+}
+
+body {
+	background-color: #F7F5F6!important;
+}
+
+
+.product-img {
+	object-fit: contain;
+	width: 100%;
+	height: 300px;
+}
+
+.mobile-product-img {
+	object-fit: contain;
+	width: 100%;
+	height: 241px;
+}
+
+.ptdtBtn,
+.bgtc-class>button,
+.bgtc-class>button:focus {
+	color: #000000!important;
+	border: 2px solid #DBD7D2!important;
+	background-color: #FEFFFC!important;
+	font-weight: 600;
+}
+
+.bgtc-class>button:hover:not(.act),
+.lm-btn:hover,
+.vb-btn:hover,
+.ptdtBtn:hover {
+	color: #000000!important;
+	background-color: #FEFFFC!important;
+	border: 2px solid rgba(0, 0, 0, 0.25);
+	-webkit-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+	-moz-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+	box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+
+}
+
+.bgtc-class>button.act {
+	background-color: #FFDEAD!important;
+	border: 2px solid #F2BF95!important;
+}
+
+.ptdtBtn {
+	color: #000000;
+	font-weight: 600;
+}
+
+.ptdtBtnActive,
+.ptdtBtnActive:hover {
+	color: #000000;
+	font-weight: 600;
+	background-color: #FFDEAD!important;
+	border: 2px solid #F2BF95!important;
+}
+
+.es-btn,
+.es-btn:hover,
+.es-btn:focus {
+	background-color: #FFDEAD!important;
+	border: 2px solid #F2BF95!important;
+}
+
+.gaq-btn,
+.gaq-btn:hover,
+.gaq-btn:focus {
+	background-color: #FFEFD5!important;
+	border: 2px solid #FFDEAD!important;
+}
+
+.btn-shadow:hover {
+	-webkit-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+	-moz-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+	box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.lm-btn,
+.lm-btn:focus,
+.vb-btn,
+.vb-btn:focus {
+	color: #000000;
+	border: 2px solid #DBD7D2!important;
+	background-color: #FEFFFC!important;
+}
+
+.table-header-color {
+	background-color: #FFDEAD !important;
+	border: 2px solid #F2BF95!important;
+}
+
+.table-data-color {
+	background-color: #FFEFD5 !important;
+	border-left: 2px solid #F2BF95!important;
+	border-right: 2px solid #F2BF95!important;
+	border-bottom: 1px solid #F2BF95!important;
+}
+
+.table-data-color:hover {
+	background-color: #FFDEAD !important;
+}
+
+.table-colspan-border {
+	border-bottom: 2px solid #F2BF95 !important;
+}
+
+.table-border {
+	border-left: 3px solid #cfe2ff;
+	border-right: 3px solid #cfe2ff;
+}
+
+.mobile-card-height {
+	max-height: 450px;
+	overflow-y: auto;
+}
+
+
+/* (landscape phones, 576px and up) */
+@media (min-width: 576px) {}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+	.product-img {
+		height: 430px;
+	}
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+	.product-img {
+		height: auto;
+	}
+}
+
+/* ---------------------------------------------------------------- */
+/* ---------------------------------------------------------------- */
+
+/* ---------------------------------------------------------------- */
+/* ---------------------------------------------------------------- */
+/*--- this corrects the font size ratio on the ocean wp css theme --*/
+
+html {
+	font-size: 100% !important;
+}
+

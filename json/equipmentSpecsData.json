@@ -1,0 +1,242 @@
+[
+	
+	{
+		"machineAcronym": "CSAW",
+		"data": {
+			
+			"UCMKPT": {
+				"models": {
+					"title": "Models",
+					"val": ["UCMK130PT", "UCMK230PT", "UCMK370PT"]
+				},
+				"shipW": {
+					"title": "Shipping Weight",
+					"val": ["3,045 lbs (1,381 kg)", "3,419 lbs (1,550 kg)", "5,170 lbs (2,345 kg)"]
+				},
+				"eng": {
+					"title": "Engine",
+					"val": ["5hp", "5hp", "5hp"]
+				},
+				"bu": {
+					"title": "Burner",
+					"val": ["(1) 410,000 BTU vapour propane", "(1) 410,000 BTU vapour propane", "(1) 410,000 BTU vapour propane"]
+				},
+				"dimGroup": {
+					"ol": {
+						"title": "Overall Length",
+						"val": ["166\"", "187\"", "221\""]
+					},
+					"ow": {
+						"title": "Overall Width",
+						"val": ["80\"", "80\"", "80\""]
+					},
+					"oh": {
+						"title": "Overall Height",
+						"val": ["68\"", "74\"", "75\""]
+					},
+					"lh": {
+						"title": "Loading Height",
+						"val": ["50\"", "54\"", "55\""]
+					}
+				},
+				"capGroup": {
+					"maVat": {
+						"title": "Material Vat",
+						"val": ["130 gal (492 L)", "230 gal (870 L)", "370 gal (1,400 L)"]
+					},
+					"heTO": {
+						"title": "Heat Transfer Oil",
+						"val": ["35 gal (132 L)", "50 gal (189 L)", "69 gal (261 L)"]
+					}
+				},
+				"suspenGroup": {
+					"ax": {
+						"title": "Axle",
+						"val": ["Single", "Tandem", "Tandem"]
+					},
+					"capa": {
+						"title": "Capacity",
+						"val": ["5,200 lbs (3,182 kg)", "10,400 lbs (4,717 kg)", "10,400 lbs (4,717 kg)"]
+					},
+					"tires": {
+						"title": "Tires - Size",
+						"val": ["(2) 225/75/R15", "(4) 225/75/R15", "(4) 225/75/R15"]
+					}
+				}
+			},
+			"UCMKDT": {
+				"models": {
+					"title": "Models",
+					"val": ["UCMK130DT", "UCMK230DT", "UCMK370DT"]
+				},
+				"shipW": {
+					"title": "Shipping Weight",
+					"val": ["3,045 lbs (1,381 kg)", "4,116 lbs (1,867 kg)", "5,287 lbs (2,398 kg)"]
+				},
+				"de": {
+					"title": "Diesel Engine",
+					"val": ["6hp Kubota", "6hp Kubota", "6hp Kubota"]
+				},
+				"bu": {
+					"title": "Burner",
+					"val": ["(1) 340,000 BTU diesel burner", "(1) 340,000 BTU diesel burner", "(1) 340,000 BTU diesel burner"]
+				},
+				"dimGroup": {
+					"ol": {
+						"title": "Overall Length",
+						"val": ["166”", "187”", "221”"]
+					},
+					"ow": {
+						"title": "Overall Width",
+						"val": ["80\"", "80\"", "80\""]
+					},
+					"oh": {
+						"title": "Overall Height",
+						"val": ["68\"", "72\"", "75\""]
+					},
+					"lh": {
+						"title": "Loading Height",
+						"val": ["50\"", "52\"", "55\""]
+					}
+				},
+				"capGroup": {
+					"maVat": {
+						"title": "Material Vat",
+						"val": ["130 gal (492 L)", "230 gal (870 L)", "370 gal (1,399 L)"]
+					},
+					"heTo": {
+						"title": "Heat Transfer Oil",
+						"val": ["35 gal (132 L)", "50 gal (189 L)", "69 gal (261 L)"]
+					}
+				},
+				"suspenGroup": {
+					"ax": {
+						"title": "Axles",
+						"val": ["Single", "Tandem", "Tandem"]
+					},
+					"capacity": {
+						"title": "Load Capacity",
+						"val": ["5,200 lbs (3,182 kg)", "10,400 lbs (4,717 kg)", "10,400 lbs (4,717 kg)"]
+					},
+					"tires": {
+						"title": "Tires - Size",
+						"val": ["(2) 225/75/R15", "(4) 225/75/R15", "(4) 225/75/R15"]
+					}
+				}
+			},
+			"KERABRE": {
+				"models": {
+					"title": "Models",
+					"val": ["KERA180BRE", "KERA270BRE", "KERA370BRE"]
+				},
+				"shipW": {
+					"title": "Shipping Weight",
+					"val": ["4,340 lbs (1,969 kg)", "4,936 lbs (2,239 kg)", "6,314 lbs (2,864 kg)"]
+				},
+				"eng": {
+					"title": "Engine",
+					"val": [
+						"23hp Liquid cooled, electric start, Kohler diesel",
+						"23hp Liquid cooled, electric start, Kohler diesel",
+						"23hp Liquid cooled, electric start, Kohler diesel"
+					]
+				},
+				"burn": {
+					"title": "Burners",
+					"val": ["(1) 340,000 BTU diesel burner", "(1) 340,000 BTU diesel burner", "(1) 340,000 BTU diesel burner"]
+				},
+				"dimGroup": {
+					"ol": {
+						"title": "Overall Length",
+						"val": ["187”", "216\"", "221\""]
+					},
+					"ow": {
+						"title": "Overall Width",
+						"val": ["80\"", "80\"", "80\""]
+					},
+					"oh": {
+						"title": "Overall Height",
+						"val": ["87\"", "87\"", "91\""]
+					},
+					"lh": {
+						"title": "Loading Height",
+						"val": ["54\"", "54\"", "57\""]
+					}
+				},
+				"capGroup": {
+					"matVat": {
+						"title": "Material Vat",
+						"val": ["180 gal (681 L)", "270 gal (870 L)", "370 gal (1,400 L)"]
+					},
+					"hto": {
+						"title": "Heat Transfer Oil",
+						"val": ["38 gal (144 L)", "55.5 gal (210 L)", "69 gal (261 L)"]
+					},
+					"dft": {
+						"title": "Diesel Fuel Tank",
+						"val": ["30 gal (113 L)", "30 gal (113 L)", "30 gal (113 L)"]
+					},
+					"hot": {
+						"title": "Hydraulic Oil Tank",
+						"val": ["30 gal (113 L)", "30 gal (113 L)", "30 gal (113 L)"]
+					}
+				},
+				"suspenGroup": {
+					"ax": {
+						"title": "Axle(s)",
+						"val": ["Tandem", "Tandem", "Tandem"]
+					},
+					"capa": {
+						"title": "Load Capacity",
+						"val": ["10,400 lbs (4,717 kg)", "10,400 lbs (4,717 kg)", "14,000 lbs (6,350 kg)"]
+					},
+					"tires": {
+						"title": "Tires - Size",
+						"val": ["(4) 225/75/R15", "(4) 225/75/R15", "(4) 235/85/R16"]
+					}
+				}
+			},
+			"KERA10": {
+				"models": {
+					"title": "Model",
+					"val": ["KERA10"]
+				},
+				"cap": {
+					"title": "Capacity",
+					"val": ["10 gallons"]
+				},
+				"shipW": {
+					"title": "Shipping Weight",
+					"val": ["212 lbs (96 kg)"]
+				},
+				"hto": {
+					"title": "Heat Transfer Oil",
+					"val": ["4 gal"]
+				},
+				"bu": {
+					"title": "Burner",
+					"val": ["(1) 80,000 BTU vapour propane"]
+				},
+				"dimGroup": {
+					"len": {
+						"title": "Length",
+						"val": ["60\""]
+					},
+					"wid": {
+						"title": "Width",
+						"val": ["24\""]
+					},
+					"height": {
+						"title": "Height",
+						"val": ["38\""]
+					},
+					"lh": {
+						"title": "Loading Height",
+						"val": ["25\""]
+					}
+				}
+			}
+		}
+	}
+	
+]
