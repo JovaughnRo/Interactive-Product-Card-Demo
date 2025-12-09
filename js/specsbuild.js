@@ -23,10 +23,11 @@ jQuery(document).ready(function ($) {
 		case "mastic-mixers":
 		case "product-card-ui":
 		case "index.html": // <- this to be used for the demo
-			//"https://marathonequipmentinc.com/wp-content/themes/oceanwp-child/js/equipmentSpecsData.json" ->remote
+			//"https://jovaughnro.github.io/Interactive-Product-Card-Demo/json/equipmentSpecsData.json" <- remote access to specifications database
+			// "json/equipmentSpecsData.json" <- local access to specifications database
 			
 			$.getJSON(
-				"json/equipmentSpecsData.json",
+				"https://jovaughnro.github.io/Interactive-Product-Card-Demo/json/equipmentSpecsData.json",
 				function (data) {
 					$specsData = data;					
 					specsData();
@@ -535,4 +536,5 @@ jQuery(document).ready(function ($) {
 		}
 	}
 });
+
 
