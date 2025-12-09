@@ -4,6 +4,7 @@
 This repository contains a demonstration of the interactive product cards I built for Marathon Equipment Inc.
 
 ## Live Demo
+https://jovaughnro.github.io/Interactive-Product-Card-Demo/
 
 ## What to expect from this Demo?
 - Product cards presented in both single and dual-fuel power option interfaces.
