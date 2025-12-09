@@ -8,7 +8,7 @@
 		"tankCapacity": "370 Gallons",
 		"frameType": "Trailer",
 		"burnerType": "Diesel",
-		"image": "/media/crack-sealing-waterproofing-electrical-hose-and-wand-kera370bre.jpg",
+		"image": "media/crack-sealing-waterproofing-electrical-hose-and-wand-kera370bre.jpg",
 		"lmImg": "https://marathonequipmentinc.com/mei-learnmore/public/media/models/kera370bre-melting-kettle-with-electrically-heated-hose-and-wand-crack-sealing-waterproofing.png",
 		"lmDescp": "Marathon&#39;s KERA models are designed for high production crack filling of hot poured rubberized crack sealants. These diesel fired kettles feature an electrically heated hose delivery system that is capable of heating, melting and applying rubberized crack sealant without requiring any additional equipment!",
 		"descp": {
@@ -39,7 +39,7 @@
 		"tankCapacity": "270 Gallons",
 		"frameType": "Trailer",
 		"burnerType": "Diesel",
-		"image": "/media/crack-sealing-waterproofing-electrical-hose-and-wand-kera270bre.jpg",
+		"image": "media/crack-sealing-waterproofing-electrical-hose-and-wand-kera270bre.jpg",
 		"lmImg": "https://marathonequipmentinc.com/mei-learnmore/public/media/models/kera270bre-melting-kettle-with-electrically-heated-hose-and-wand-crack-sealing-waterproofing.png",
 		"lmDescp": "Marathon&#39;s KERA models are designed for high production crack filling of hot poured rubberized crack sealants. These diesel fired kettles feature an electrically heated hose delivery system that is capable of heating, melting and applying rubberized crack sealant without requiring any additional equipment!",
 		"descp": {
@@ -71,7 +71,7 @@
 		"tankCapacity": "180 Gallons",
 		"frameType": "Trailer",
 		"burnerType": "Diesel",
-		"image": "/media/crack-sealing-waterproofing-electrical-hose-and-wand-kera180bre.jpg",
+		"image": "media/crack-sealing-waterproofing-electrical-hose-and-wand-kera180bre.jpg",
 		"lmImg": "https://marathonequipmentinc.com/mei-learnmore/public/media/models/kera180bre-melting-kettle-with-electrically-heated-hose-and-wand-crack-sealing-waterproofing.png",
 		"lmDescp": "Marathon&#39;s KERA models are designed for high production crack filling of hot poured rubberized crack sealants. These diesel fired kettles feature an electrically heated hose delivery system that is capable of heating, melting and applying rubberized crack sealant without requiring any additional equipment!",
 		"descp": {
@@ -104,7 +104,7 @@
 		"tankCapacity": "370 Gallons",
 		"frameType": "Trailer",
 		"burnerType": "Propane",
-		"image": "/media/crack-sealing-waterproofing-gravity-pour-ucmk370pt.jpg",
+		"image": "media/crack-sealing-waterproofing-gravity-pour-ucmk370pt.jpg",
 		"lmImg": "https://marathonequipmentinc.com/mei-learnmore/public/media/models/ucmk370pt.png",
 		"lmDescp": "Marathon&#39;s gravity fed asphalt melter kettles are capable of heating, melting and dispensing hot applied rubberized material for crack sealing, waterproofing, and roofing. Multiple sizes available from 130 gallon up to 370 gallon capacities.",
 		"descp": {
@@ -139,7 +139,7 @@
 		"tankCapacity": "370 Gallons",
 		"frameType": "Trailer",
 		"burnerType": "Diesel",
-		"image": "/media/crack-sealing-waterproofing-gravity-pour-ucmk370dt.jpg",
+		"image": "media/crack-sealing-waterproofing-gravity-pour-ucmk370dt.jpg",
 		"lmImg": "https://marathonequipmentinc.com/mei-learnmore/public/media/models/ucmk370dt.png",
 		"lmDescp": "Marathon&#39;s gravity fed asphalt melter kettles are capable of heating, melting and dispensing hot applied rubberized material for crack sealing, waterproofing, and roofing. Available as one single fuel source, makes them more efficient and economical to run.",
 		"descp": {
@@ -167,7 +167,7 @@
 		"tankCapacity": "230 Gallons",
 		"frameType": "Trailer",
 		"burnerType": "Propane",
-		"image": "/media/crack-sealing-waterproofing-gravity-pour-ucmk230pt.jpg",
+		"image": "media/crack-sealing-waterproofing-gravity-pour-ucmk230pt.jpg",
 		"lmImg": "https://marathonequipmentinc.com/mei-learnmore/public/media/models/ucmk230pt.png",
 		"lmDescp": "Marathon&#39;s gravity fed asphalt melter kettles are capable of heating, melting and dispensing hot applied rubberized material for crack sealing, waterproofing, and roofing. Multiple sizes available from 130 gallon up to 370 gallon capacities.",
 		"descp": {
@@ -203,7 +203,7 @@
 		"tankCapacity": "230 Gallons",
 		"frameType": "Trailer",
 		"burnerType": "Diesel",
-		"image": "/media/crack-sealing-waterproofing-gravity-pour-ucmk230dt.jpg",
+		"image": "media/crack-sealing-waterproofing-gravity-pour-ucmk230dt.jpg",
 		"lmImg": "https://marathonequipmentinc.com/mei-learnmore/public/media/models/ucmk230dt.png",
 		"lmDescp": "Marathon&#39;s gravity fed asphalt melter kettles are capable of heating, melting and dispensing hot applied rubberized material for crack sealing, waterproofing, and roofing. Available as one single fuel source, makes them more efficient and economical to run.",
 		"descp": {
@@ -231,7 +231,7 @@
 		"tankCapacity": "130 Gallons",
 		"frameType": "Trailer",
 		"burnerType": "Propane",
-		"image": "/media/crack-sealing-waterproofing-gravity-pour-ucmk130pt.jpg",
+		"image": "media/crack-sealing-waterproofing-gravity-pour-ucmk130pt.jpg",
 		"lmImg": "https://marathonequipmentinc.com/mei-learnmore/public/media/models/ucmk130pt.png",
 		"lmDescp": "Marathon&#39;s gravity fed asphalt melter kettles are capable of heating, melting and dispensing hot applied rubberized material for crack sealing, waterproofing, and roofing. Multiple sizes available from 130 gallon up to 370 gallon capacities.",
 		"descp": {
@@ -267,7 +267,7 @@
 		"tankCapacity": "130 Gallons",
 		"frameType": "Trailer",
 		"burnerType": "Diesel",
-		"image": "/media/crack-sealing-waterproofing-gravity-pour-ucmk130dt.jpg",
+		"image": "media/crack-sealing-waterproofing-gravity-pour-ucmk130dt.jpg",
 		"lmImg": "https://marathonequipmentinc.com/mei-learnmore/public/media/models/ucmk130dt.png",
 		"lmDescp": "Marathon&#39;s gravity fed asphalt melter kettles are capable of heating, melting and dispensing hot applied rubberized material for crack sealing, waterproofing, and roofing. Available as one single fuel source, makes them more efficient and economical to run.",
 		"descp": {
@@ -287,4 +287,5 @@
 		"ariaLabelBrochure": "View the pdf brochure of the Diesel-Fired Gravity Pour Melting Kettle models",
 		"ariaLabelLearnmore": "View more details of the Diesel-Fired Gravity Pour Melting Kettle models"
 	}	
+
 ]
