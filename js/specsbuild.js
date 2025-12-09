@@ -24,9 +24,9 @@ jQuery(document).ready(function ($) {
 		case "product-card-ui":
 		case "index.html": // <- this to be used for the demo
 			//"https://marathonequipmentinc.com/wp-content/themes/oceanwp-child/js/equipmentSpecsData.json" ->remote
-			// "/js/equipmentSpecsData.json" ->  local development
+			
 			$.getJSON(
-				"/json/equipmentSpecsData.json",
+				"json/equipmentSpecsData.json",
 				function (data) {
 					$specsData = data;					
 					specsData();
@@ -535,3 +535,4 @@ jQuery(document).ready(function ($) {
 		}
 	}
 });
+
