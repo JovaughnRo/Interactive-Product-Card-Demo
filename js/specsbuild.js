@@ -12,8 +12,7 @@ jQuery(document).ready(function ($) {
 	//         break;
 	// local host -> $urlIdentify = $url.split('/')[4].split('.html')[0];
 	// remote host -> $urlIdentify = $url.split('/')[3];
-	$urlIdentify = $url.split('/')[3]; //<- reads the url to access the page category
-	console.log("urlIdentify ->",$urlIdentify);
+	$urlIdentify = $url.split('/')[3]; //<- reads the url to access the page category	
 	let $specsData = null;
 	switch ($urlIdentify) {
 		
@@ -23,7 +22,7 @@ jQuery(document).ready(function ($) {
 		case "tack-emulsion-sprayers":
 		case "mastic-mixers":
 		case "product-card-ui":
-		case "index.html": // <- this to be used for the demo
+		case "Interactive-Product-Card-Demo": // <- this to be used for the demo
 			//"https://jovaughnro.github.io/Interactive-Product-Card-Demo/json/equipmentSpecsData.json" <- remote access to specifications database
 			// "json/equipmentSpecsData.json" <- local access to specifications database
 			
@@ -537,6 +536,7 @@ jQuery(document).ready(function ($) {
 		}
 	}
 });
+
 
 
 
