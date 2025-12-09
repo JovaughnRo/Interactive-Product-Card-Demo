@@ -54,7 +54,7 @@ jQuery(document).ready(function ($) {
 
 		switch ($urlIdentify) {
 			
-			case "index.html": //<- used for the demo			
+			case "Interactive-Product-Card-Demo": //<- used for the demo			
 			case "crack-sealing-and-waterproofing": // <- used for the live website
 				$newData = $specsData.findIndex(function ($ac) {
 					return $ac.machineAcronym == "CSAW";
@@ -536,6 +536,7 @@ jQuery(document).ready(function ($) {
 		}
 	}
 });
+
 
 
 
