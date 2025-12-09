@@ -12,8 +12,9 @@ jQuery(document).ready(function ($) {
 	} else {
 		$dID = "category";
 	}
-    // remote -> "https://marathonequipmentinc.com/wp-content/themes/oceanwp-child/js/modelsDatabase.json"
-	$.getJSON("json/modelsDatabase.json", function (data) {
+	// localHost access -> "json/modelsDatabase.json"
+    // remote -> "https://jovaughnro.github.io/Interactive-Product-Card-Demo/json/modelsDatabase.json"
+	$.getJSON("https://jovaughnro.github.io/Interactive-Product-Card-Demo/json/modelsDatabase.json", function (data) {
 		$masterOModels = data;
 	});
     
@@ -405,4 +406,5 @@ jQuery(document).ready(function ($) {
 		// for DF10W and hides the others until they are selected.
 	}	
 });
+
 
