@@ -3,7 +3,7 @@ Theme Name: Interactive Product Card Demo
 Description: This css sample is outfit for this demo to see the full version visit the here: https://marathonequipmentinc.com/wp-content/themes/oceanwp-child/style.css?ver=6.6.17.
 Author: Jovaughn Rowe
 Author URI: https://www.jovaughnroweportfolio.com/
-Update date: December 7, 2025
+Update date: June 2, 2025
 */
 
 *,
@@ -68,7 +68,7 @@ h6 {
 /* ---------------------------------------------------------------- */
 /* ---------------------------------------------------------------- */
 /* ---------------------------------------------------------------- */
-/* -----------style-v2-addition------------------------------------ */
+/* -----------style-v3------------------------------------ */
 
 /* tab focus css */
 *:focus:not(.focus-visible) {
@@ -85,77 +85,116 @@ body {
 	background-color: #F7F5F6!important;
 }
 
-
-.product-img {
-	object-fit: contain;
-	width: 100%;
-	height: 300px;
+.bid-specs-btn {
+	background-color: #b2ffe1 !important;
+	border: 2px solid #69fcc6 !important;
+	color: #001a0f !important;
 }
 
-.mobile-product-img {
-	object-fit: contain;
-	width: 100%;
-	height: 241px;
+.bg-card {
+	background-color: #f1f3f4;
+	border-radius: 10px;
 }
-
-.ptdtBtn,
-.bgtc-class>button,
-.bgtc-class>button:focus {
-	color: #000000!important;
-	border: 2px solid #DBD7D2!important;
-	background-color: #FEFFFC!important;
+.img-container {
+	border-radius: 0px 10px 10px 0px;
+	background-color: #e3e8e8;
+}
+.ptdtBtnActive,
+.ptdtBtnActive:hover {
+	color: #4d2e00;
 	font-weight: 600;
+	background-color: #ffdead !important;
+	border: 2px solid #f2bf95 !important;
 }
-
-.bgtc-class>button:hover:not(.act),
-.lm-btn:hover,
-.vb-btn:hover,
-.ptdtBtn:hover {
-	color: #000000!important;
-	background-color: #FEFFFC!important;
-	border: 2px solid rgba(0, 0, 0, 0.25);
+.mobile-img-container {
+	border-radius: 10px;
+	background-color: #e3e8e8;
+}
+.prod-descp-container {
+	background-color: #f9fafa;
+	border-radius: 10px;
 	-webkit-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 	-moz-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 	box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-
 }
-
-.bgtc-class>button.act {
-	background-color: #FFDEAD!important;
-	border: 2px solid #F2BF95!important;
-}
-
-.ptdtBtn {
-	color: #000000;
-	font-weight: 600;
-}
-
-.ptdtBtnActive,
-.ptdtBtnActive:hover {
-	color: #000000;
-	font-weight: 600;
-	background-color: #FFDEAD!important;
-	border: 2px solid #F2BF95!important;
+.gaq-btn,
+.gaq-btn:hover,
+.gaq-btn:focus {
+	background-color: #ffeacc !important;
+	border: 2px solid #ffd699 !important;
+	color: #331e00 !important;
 }
 
 .es-btn,
 .es-btn:hover,
 .es-btn:focus {
-	background-color: #FFDEAD!important;
-	border: 2px solid #F2BF95!important;
+	background-color: #ebeeef !important;
+	border: 2px solid #dae1e2 !important;
+	color: #2d3839 !important;
+}
+.prod-model-title {
+	color: #222a2a;
+}
+.prod-model-options {
+	color: #445455;
+}
+.prod-model-main-title {
+	color: #0b0e0e;
 }
 
-.gaq-btn,
-.gaq-btn:hover,
-.gaq-btn:focus {
-	background-color: #FFEFD5!important;
-	border: 2px solid #FFDEAD!important;
+p {
+	color: #171c1c;
 }
 
-.btn-shadow:hover {
+.ptdtBtn,
+.bgtc-class > button,
+.bgtc-class > button:focus {
+	color: #171c1c !important;
+	border: 1px solid transparent !important;
+	background-color: #e3e8e8 !important;
+	font-weight: 400 !important;
+}
+
+.bgtc-class > button:hover:not(.act),
+.ptdtBtn:hover {
+	color: #171c1c !important;
+	border: 1px solid transparent !important;
+	background-color: #e3e8e8 !important;
 	-webkit-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 	-moz-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 	box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.lm-btn:hover,
+.vb-btn:hover {
+	-webkit-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+	-moz-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+	box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.bgtc-class > button.act {
+	background-color: #ffeacc !important;
+	border: 1px solid #ffc166 !important;
+	color: #4d2e00 !important;
+	user-select: none;
+}
+
+.lm-btn,
+.lm-btn:focus,
+.vb-btn,
+.vb-btn:focus {
+	color: #2d3839;
+	border: 2px solid #ebeeef !important;
+	background-color: #f1f3f4 !important;
+}
+.line {
+	border-top: 1px solid #e3e8e8;
+}
+
+@media only screen and (max-width: 990px) {
+	.img-container {
+		border-radius: 10px 10px 0px 0px;
+	}
 }
 
 .lm-btn,
